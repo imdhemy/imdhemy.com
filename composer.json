@@ -20,7 +20,8 @@
         "laravel/sail": "^1.41",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
-        "phpunit/phpunit": "^11.5.3"
+        "phpunit/phpunit": "^11.5.3",
+        "vimeo/psalm": "^6.12"
     },
     "autoload": {
         "psr-4": {
@@ -59,7 +60,8 @@
             "@php artisan test"
         ],
         "pint-fix": "./vendor/bin/pint",
-        "pint-check": "./vendor/bin/pint --test"
+        "pint-check": "./vendor/bin/pint --test",
+        "psalm": "./vendor/bin/psalm"
     },
     "extra": {
         "laravel": {
